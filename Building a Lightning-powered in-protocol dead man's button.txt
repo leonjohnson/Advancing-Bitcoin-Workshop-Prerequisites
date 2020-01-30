@@ -1,0 +1,3 @@
+Knowledge of golang - other languages are fine but classroom support may not be available for those languages.
+
+bitcoind 0.19 and lnd 0.9 build with tags="routerrpc" running locally on your laptop
