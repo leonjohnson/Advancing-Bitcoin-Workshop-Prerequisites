@@ -1,0 +1,17 @@
+Get a linux or mac machine (for Windows users, get VirtualBox or
+something, and get a linux distro up on it).
+
+Download and build Bitcoin Core (for Windows users, they should do
+this inside that VirtualBox).
+
+git remote add kallewoof https://github.com/kallewoof/bitcoin.git
+git fetch kallewoof
+git checkout signet
+make
+
+Download and build btcdeb:
+git clone https://github.com/kallewoof/btcdeb.git
+cd btcdeb
+git checkout taproot
+./autogen.sh && ./configure --enable-dangerous
+make
